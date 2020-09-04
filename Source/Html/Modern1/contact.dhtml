@@ -1,0 +1,91 @@
+<!--@ output contact @-->
+<!--@ output ..\ServerRoot\Views\Home\Contact.cshtml:server @-->
+<!--@ include variables @-->
+<!--@ include header:! @-->
+<!--@ include topmenu @-->
+
+
+<main class="contact">
+
+    <!-- Full screen image -->
+    <section class="contact-splash">
+        <div class="faded slower"  data-delay-add="slide-fade-in" data-delay="1">
+            <div class="container single-vcenter">
+                <div class="grid-wrapper">
+
+                    <div class="grid">
+                        <div class="splash-text">
+                            <header class="faded" data-delay-add="slide-in-up-group" data-delay="1">
+                                <h1><i class="ion-chatbubbles"></i></h1>                                                 
+                                <h2>
+                                    In Case of an Emergency,
+                                    Contact Us on Our 24/7 On-Call Emergency Service Line
+                                </h2>
+                                <p>
+                                    <a class="button" href="#">(+233) 24 929 8537</a>
+                                </p>
+                            </header>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact us -->
+    <section class="container single-vcenter" id="ContactInfo">
+        <div class="grid-wrapper">
+
+            <div class="grid handle">
+
+                <div class="col one-half below-lap-one-whole">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2><i class="ion-ios-telephone"></i></h2>
+                        <h2>Phone</h2>                   
+                        <p>
+                            <span class="phone">(+233) 26 758 1325</span>
+                        </p>
+                    </header>
+                </div>
+
+                <div class="col one-half below-lap-one-whole">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2><i class="ion-ios-email"></i></h2>
+                        <h2>Email</h2>
+                        <p>
+                            <span class="phone">
+                                <a href="mailto:$$EmailAddress$$"><strong>$$EmailAddress$$</strong></a>
+                            </span>
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <div class="grid">
+
+                <div class="col">
+
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">                                               
+                        <p>
+                            We understand how much investments you have made in your computer
+                            system's; We also believe in your reputation. That is why we are
+                            proud to help shape and improve your system's security.
+                        </p>
+                        <p>
+                            Pick up our <strong>brochure</strong> and keep in touch
+                        </p>
+
+                        <p>
+                            <a class="button" href="$$Urls.Download.Brochure$$">Download Brochure</a>
+                        </p>
+
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<!--@ include footer:! @-->

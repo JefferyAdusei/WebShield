@@ -1,0 +1,147 @@
+
+.services
+{
+    .service-splash
+    {       
+        > div
+        {
+            // Full height
+            height: 100vh;
+
+            // Fill
+            background-size: cover;
+
+            // Don't repeat image
+            background-repeat: no-repeat;
+
+            // Keep image in center
+            background-position: center;
+
+            // Image background
+            background-image: url('/Assets/Images/close-camera.jpg');        
+        }
+    }
+    // All sections on blog page should fill the page at least
+    // for a nice spaced out effect
+    > section, > header
+    {
+        // Fill the page at least
+        min-height: 100vh;
+    }
+
+    // Main header
+    h1 
+    {
+        // Alternative color
+        @extend h1.alternative;
+    }
+    .services-splash
+    {        
+        h1
+        {            
+            // Small bottom margin
+            margin-bottom: $spacing-normal;
+        }
+
+        // Paragraph right after a header
+        h1 + p
+        {
+            // No margin
+            margin: 0;
+        }
+    }
+    
+    // Logo background
+    .logo-background
+    {
+        // Make image inline, centered and responsive
+        @extend .inline-whole-image;
+
+        // Mascot background image
+        background-image: url('/Assets/Images/logo.png');
+    }
+
+    .security-img
+    {       
+        > div
+        {
+            // Full height
+            height: auto;
+
+            // Nice corner to crop image
+            border-radius: $spacing-normal;
+
+            padding: $spacing-normal;
+
+            text-shadow: 0 -1px 1px black;
+
+            // Fill
+            background-size: cover;
+
+            // Don't repeat image
+            background-repeat: no-repeat;
+
+            // Keep image in center
+            background-position: center;
+
+            // Bit of top/bottom margin
+            margin: $spacing-larger 0; 
+            
+            // Image background
+            background-image: url('/Assets/Images/ddos-attack.jpg');        
+        }
+    }
+    
+    // Match spacing between headers and paragraphs
+    .services-extended 
+    { 
+        h2, p
+        {
+            // Huge margin
+            margin: $font-largest 0;
+
+            // On smaller screens...
+            @include media($breakpoint-below-laptop)
+            {
+                // Large margin
+                margin: $font-large 0;
+            }
+        }
+
+        .one-third
+        {
+            margin: 1% 0%;
+            h2 
+            {
+                font-size: $font-larger;
+
+                >i
+                {
+                    display: block;
+                    font-size: $font-largest;
+                }
+            }
+
+            p
+            {
+                font-size: $font-large;
+                text-align: justify;
+                hyphens: auto;
+            }
+
+    
+            // Padding inside button
+            padding: $spacing-normal;
+
+            // Text color bright neutral
+            color: $color6;
+
+            @include Beveled-Corners($spacing-normal, transparent, rgba(23,23,23, 0.5));
+            
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+
+            border-radius: $spacing-normal;
+        }
+    }    
+}

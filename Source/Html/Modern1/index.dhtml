@@ -1,0 +1,362 @@
+<!--@ output index @-->
+<!--@ output ..\ServerRoot\Views\Home\Index.cshtml:server @-->
+<!--@ include variables @-->
+<!--@ include header:! @-->
+<!--@ include topmenu @-->
+
+<main class="home">
+
+<!-- Mascot Banner -->
+<header class="logo-header single-vcenter">
+
+        <div class="grid-wrapper">
+            <div class="grid vertical-center">
+                <div class="col one-half below-lap-one-whole">
+                    <div class="logo-container">
+                        <div class="logo-particles">
+                            <div data-particle-bubbles="0.2"></div>
+                        </div>
+                        <div class="logo-background"></div>
+                    </div>
+                </div>
+                <div class="col one-half below-lap-one-whole">
+                    <header class="logo-code">
+                        <div class="faded" data-delay-add="slide-in-up-group" data-delay="1">
+                            <p>
+                                <span class="c1">Cyber</span><span class="c4">Shield</span>                                
+                            </p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="c2">Ghana</span>                                
+                            </p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="c3">Limited</span>                               
+                            </p>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Experts -->
+    <section class="container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid vertical-center">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>We are experts in Cyber Security and Forensics</h1>                                
+                        <p>
+                            With years of experience, our staff has the capabilities and expertise to
+                            take your Cyber Security to the next level. At CyberShield Ghana Ltd., we
+                            examine your system using smart tools and up-to-date global resources in
+                            order to thoroughly scrutinize your system's active security shields.
+                        </p>                        
+                        <p>
+                            <a class="button" href="$$Urls.AboutMe$$">Learn More About Us</a>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neccessity -->
+    <section class="container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>The Necessity Of CyberSecurity</h1>
+                        <p>
+                            The growth and evolution of technology and the world of online has
+                            made the world a smaller, quicker and more efficient place. Not only can
+                            you run a full business online, but you can also conduct almost your
+                            entire personal life by simply logging online. But, with this, has sprung up
+                            endless and potentially crippling threats to businesses and individuals
+                            alike.
+                        </p>
+                        <p>
+                            Many of the problems, however, lie in the fact that you simply don't know what is real
+                            and what is fake until it is too late. With the rise and spread of fake news, many
+                            people simply don't know when to trust a warning or update about a potential threat.
+                        </p>
+                        <p>
+                            The ease of restrictions on communication has also allowed for email addresses and
+                            mobile numbers to become easily accessible to false communication and phishing.
+                            Thousands of people a month receive false communication that their accounts have
+                            been hacked, or that they have been sent funds to retrieve, opening them up to
+                            high levels of fraud and theft.
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Issues -->
+    <section class="security-issues container single-vcenter">
+        <div class="grid-wrapper">
+
+            <!--Top Cyber Security Risks-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>Top CyberSecurity Risks</h1>
+                        <p>
+                            A cyber attack is a deliberate exploitation of computer systems and
+                            networks using malicious software (malware) to compromise data or
+                            disable operations. Here are some common types...
+                        </p>
+                    </header>
+                </div>
+            </div>
+            <!--Phishing-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Phishing</h2>
+                        <p>
+                            Phishing is the <strong>most common cyber attack</strong> and is the use of fraudulent
+                            communication to steal valuable information from the victim. Phishing typically uses
+                            email that appears to be from a trusted or reputable source. Unsuspecting
+                            users open and take further actions like providing classified information or downloading
+                            malware.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Malware-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Malware</h2>
+                        <p>
+                            <strong>Mal</strong>icious Soft<strong>Ware</strong> is one desinged to interfere with a
+                            computer's normal functioning. It's the chief weapon of a cyber attack and includes viruses,
+                            worms, trojans, ransomware, adware, spyware bots, bugs and rootkits. When a Malware enters
+                            a system, it blocks access to data and programs, corrupts the system &amp; or steal vital information;
+                            trade secrets, personal information, military intelligence and relevant information that
+                            may give the attacker strategic advantage over their victim.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Ransomware-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Ransomware</h2>
+                        <p>
+                            Hospitals, Universities, State and Local Governments, Law Enforcement Agencies, Small businesses, Large
+                            Enterprises, etc., are just some of the entities impacted by <strong>Ransomware</strong>. Just as the
+                            name suggests, a ransomware is an insidious type of malware that encrypts, or locks valuable
+                            digital files and demands a ransom to release them.
+                        </p>
+                        <p>
+                            The inability to access the important data can be catastrophic in terms of the loss of sensitive or
+                            proprietary information, the disruption to regular operations, financial losses incurred to restore
+                            systems and files, and the potential harm to an organization's reputation. IBM estimates ransomware attacks
+                            cost companies more than $8 billion globally in 2017.
+                        </p>
+                    </header>
+                </div>
+            </div>
+            
+
+            <!--Man In the Middle Attacks-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Man-In-The-Middle Attack</h2>
+                        <p>
+                            These are attacks that take place when the hacker inserts themselves into a transaction
+                            between two parties. An example is a bank system that sends and receive information from their
+                            cloud server. The hacker inserts themselves, and intercepts both the incoming and outgoing packets.
+                            They are able to make use of entries on either side and record the information being shared.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Denial of Service Attack-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Denial of Service Attack</h2>
+                        <p>
+                            Attacks are carried out by several users and devices to essentially flood the systems, servers,
+                            or network with traffic that they cannot handle. The attackers inundate systems with traffic to
+                            consume resources and bandwidth and make them unable to perform.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Sql Injection-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>SQL Injection</h2>
+                        <p>
+                            <a href="$$Urls.External.WikiSQL$$" target="_blank">SQL</a> is short for Structured Query Language. Hackers will
+                            introduce code into a system to force the system to release/reveal
+                            information it usually wouldn't hence compromising its privacy.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+
+    <!-- Learn for free -->
+    <section class="learn-for-free container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>Personal Privacy Guide (PPG)</h1>
+                        <p>
+                            While technology evolves and becomes smarter and faster, so are cyber criminals.
+                            In fact, cyber criminals are trying to stay ahead of the evolution of technology.
+                            Chief Information Officers have expressed frustrations at the fact that they
+                            simply do not know where the next cyber attack would come from.
+                        </p>
+                        <p>
+                            As Cyber Security Professionals, we have outlined some key <strong>personal protection information</strong>
+                            that could help you protect yourself and your computer.
+                        </p>
+                        <p>
+                            <a href="$$Urls.PPE$$" class="button">Interested?</a>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Specialties list -->
+    <section class="container single-vcenter">
+        <div class="grid-wrapper handle">
+
+            <div class="grid">
+                <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                
+                    <h1><i class="ion-podium"></i></h1>
+                    <h2>Our Services</h2>
+                
+                    <!--Level One Pen Testing-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-android-contract"></i>
+                            Level 1 Penetration Testing
+                        </a>
+                    </p>
+                </div>
+
+                <!--Level Two Pen Testing-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-android-expand"></i>
+                            Level 2 Penetration Testing
+                        </a>
+                    </p>
+                </div>
+
+                <!--Computer Forensics-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-ios-analytics"></i>
+                            Computer Forensics
+                        </a>
+                    </p>
+                </div>          
+
+                <!--Consultation and Training-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-help-buoy"></i>
+                            Training
+                        </a>                        
+                    </p>
+                </div>
+            </header>
+            </div>
+                
+            <div class="grid">
+
+                <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+
+                <!--Advisory-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-easel"></i>
+                            Consultation
+                        </a>
+                        
+                    </p>
+                </div>
+
+                <!--Technical Support-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-settings"></i>
+                            Technical Support
+                        </a>
+                    </p>
+                </div>
+
+                <!--Security Software Development-->
+                <div class="col one-quarter below-desk-one-half below-lap-full">
+                    <p>
+                        <a class="bev-button" href="$$Urls.Services$$#OurServices">
+                            <i class="ion-ios-monitor"></i>
+                            Security Software Development
+                        </a>
+                    </p>
+                </div>
+                </header>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Still Reading -->
+    <section class="are-you-still-reading container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>Learn More About Our Services</h1>
+                        <p>
+                            <a class="button" href="$$Urls.Services$$">Continue reading here</a>
+                        </p>
+
+                        <h1>Or maybe you need Our help?</h1>
+                        <p>vulnerability tests, system analysis, training and consultancy</p>
+                        <p>
+                            <a class="button" href="$$Urls.Contact$$">Contact Us</a>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<!--@ include footer:! @-->

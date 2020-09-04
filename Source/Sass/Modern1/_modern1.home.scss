@@ -1,0 +1,295 @@
+// All sections on home page should fill the page at least
+// for a nice spaced out effect
+.home > section, .home > header
+{
+    // Fill the page at least
+    min-height: 100vh;
+}
+
+.home
+{
+        // Match spacing between headers and paragraphs
+    .i-develop { @extend .spaced-lines; }
+
+    .logo-header
+    {
+        // Remove the normal padding push-down to go past top menu
+        // as instead we vertically center this section
+        @include media($breakpoint-desktop)
+        {
+            padding-top: 0;
+        }
+        @include media($breakpoint-laptop)
+        {
+            padding-top: 0;
+        }
+
+        .grid
+        {
+            @include CutoutRound($spacing-large,transparent, $color13);
+            padding: $spacing-normal;
+            margin: $spacing-normal;
+        }
+    
+        // Holds the logo and the particle effect
+        .logo-container
+        {
+            // Position relative so absolute position particles are relative to this
+            position: relative;            
+    
+            // Mascot background
+            .logo-background
+            {
+                // Slide in from left
+                @extend .slide-in-left-shake;
+    
+                // Decent size
+                height: 70vh;
+    
+                @include media($breakpoint-below-laptop)
+                {
+                    height: 50vh;
+                }
+    
+                // Mascot background image
+                background-image: url('/Assets/Images/logo.png');
+    
+                // Shrink to fit
+                background-size: contain;
+    
+                // Don't repeat image
+                background-repeat: no-repeat;
+    
+                // Keep him to the center
+                background-position: center;
+    
+                // On mobile...
+                @include media($breakpoint-below-laptop)
+                {
+                    // Center image
+                    background-position: center top;    
+                }
+            }
+    
+            // Particles above logo
+            .logo-particles
+            {   
+                // Float to simply overlay on logo image
+                float: right;
+                
+                // Full width so float acts like position absolute
+                // (but will allow us to horizontally center later)
+                // NOTE: Offset slightly to right as our image is slightly offset
+                width: 110%;
+    
+                > div
+                {
+                    // Add particle effects
+                    @extend .particles;
+                
+                    // Hide behind mascot
+                    z-index: -1;
+            
+                    // Height to match image
+                    height: 25vh;
+    
+                    // Center horizontally
+                    margin: auto;
+                    
+                    // Set width based on image   
+                    width: 44vh;
+                                        
+                    // On mobile...
+                    @include media($breakpoint-below-laptop)
+                    {             
+                        // Set width based on image   
+                        width: 35vh;
+    
+                        // Limit max width once image hits its full size
+                        max-width: 54vw;
+    
+                        // Limit height once background image scales to full size
+                        max-height: 25vw;
+    
+                        // Height sizes based on width
+                        height: 20vh;
+                    }
+    
+    
+                    @include media($breakpoint-mobile)
+                    {
+                        // Limit max width once image hits its full size
+                        //max-width: 60vw;                
+                    }
+                }
+            }
+        }
+    
+        .logo-code
+        {        
+            // Center text
+            text-align: center;
+    
+            // Inner text container
+            > div 
+            {
+                // Display inline block so can left-align text
+                display: inline-block;
+    
+                // Left align text
+                text-align: left; 
+    
+                // Large fonts for each size
+                font-size: $font-largest * 2;
+    
+                @include media($breakpoint-laptop)
+                {
+                    font-size: $font-largest * 2;
+                }
+                @include media($breakpoint-tablet)
+                {
+                    font-size: $font-largest * 1.5;
+                }
+                @include media($breakpoint-mobile)
+                {
+                    font-size: $font-largest;
+                }
+
+                // Reduce Line Height of Text
+                > p
+                {
+                    line-height: 1.2;
+                }
+    
+                // Reduce space between lines
+                line-height: 0.2;                
+            }
+        
+            @include media($breakpoint-tablet)
+            {
+                padding-top: $spacing-large;
+            }
+        
+            @include media($breakpoint-mobile)
+            {
+                padding-top: $spacing-small;
+            }
+    
+            .c1 { color: #2ecbe6; }
+            .c4 { color: #f29f69; }
+            .c2 { color: #e3bd0c; }
+            .c3 { color: #04df23; }
+
+            p
+            {
+                margin: 0;
+            }
+        }
+    }
+    
+    // Color in bright main color
+    header > h1 
+    {
+        @extend h1.alternative;        
+    }
+    
+    .security-img
+    {       
+        > div
+        {
+
+            // Full height
+            height: 100vh;
+            
+           
+
+            // Fill
+            background-size: cover;
+
+            // Don't repeat image
+            background-repeat: no-repeat;
+
+            // Keep image in center
+            background-position: center center;
+
+            // Bit of top/bottom margin
+            margin: $spacing-large $spacing-normal;
+            
+            // Image background
+            background-image: url('/Assets/Images/network-code.jpg');        
+        }
+    }
+    
+    // Are you still reading 
+    .are-you-still-reading header
+    {
+        // First header is second theme color
+        > h1:first-of-type() { color: $color3; }
+        // Second header is first theme color
+        > h1:last-of-type() { color: $color2; }
+    }
+
+    .handle > .grid
+    {              
+        i
+        {
+            display: block;
+            color: $color3;
+            font-size: $font-largest;
+
+            @include media($breakpoint-below-desktop)
+            {
+                font-size: $font-largest * 1.5;
+            }
+            @include media($breakpoint-mobile)
+            {
+                font-size: $font-larger;
+            }            
+        }
+    }
+
+    .security-issues
+    {
+        .grid
+        {
+            padding: 2%;
+            p{text-align: justify; hyphens: auto;}
+        }
+        .grid:nth-child(2)
+        {
+            background: $color2;
+            border-top: 5px dashed $color1;
+        }
+
+        .grid:nth-child(3)
+        {
+            background: $color4;
+            border-top: 5px dashed $color2;
+        }
+
+        .grid:nth-child(4)
+        {
+            background: $color5;
+            border-top: 5px dashed $color4;
+        }
+
+        .grid:nth-child(5)
+        {
+            background: $color11;
+            border-top: 5px dashed $color5;
+        }
+        
+        .grid:nth-child(6)
+        {
+            background: $color12;
+            border-top: 5px dashed $color11;
+        }
+        
+        .grid:nth-child(7)
+        {
+            background: $color15;
+            border-top: 5px dashed $color12;
+        }
+    }
+
+}

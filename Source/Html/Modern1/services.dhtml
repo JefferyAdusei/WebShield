@@ -1,0 +1,239 @@
+<!--@ output services @-->
+<!--@ output ..\ServerRoot\Views\Home\Services.cshtml:server @-->
+<!--@ include variables @-->
+<!--@ include header:! @-->
+<!--@ include topmenu @-->
+
+<main class="services">
+
+    <!-- Full screen image -->
+    <section class="service-splash">
+        <div class="faded slower"  data-delay-add="slide-fade-in" data-delay="1">
+            <div class="container single-vcenter">
+                <div class="grid-wrapper">
+
+                    <div class="grid">
+                        <div class="splash-text">
+                            <header class="faded" data-delay-add="slide-in-up-group" data-delay="1">
+                                <h1><i class="ion-ios-cog"></i></h1>                                                 
+                                <h2>
+                                    Attacks are not a matter of &ldquo;if&rdquor; but &ldquo;when&rdquor;, therefore
+                                    we entreat you to challenge your system's security.
+                                </h2>
+                                <p>
+                                    <a class="button" href="$$Urls.Contact$$">Contact Us</a>
+                                </p>
+                            </header>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- blog splash -->
+    <section class="services-splash container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="faded" data-delay-add="slide-in-up-group" data-scroll-into-view="slide-in-up-group">
+                        <h1>CyberShield Ghana Ltd.</h1>
+                        <p>
+                            At <mark>CyberShield GH LTD.</mark>, we believe security protocols must be put in place
+                            in the event of unforseen data breaches. Security is given extra precautions
+                            regardless of locations, business size etc.
+                        </p>
+                        <p>
+                            Given the prevalence, if not inevitability of cyber attacks, organizations need to
+                            address response as much as prevention. IT analyst IDC notes that
+                            <blockquote>
+                                as businesses adopt new technologies, their protection strategies must change
+                                to keep pace. These strategies must include stronger and more varied security
+                                mechanisms, but they must also include ways to recover quickly should a breach
+                                or an incident occur.
+                            </blockquote>                             
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services-extended container single-vcenter">
+        <div class="grid-wrapper">
+
+            <div class="grid security-img">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>Effective Response to Cyberattacks</h1>
+                        <p>
+                            The discovery that hackers have infiltrated a company's computer network, and made off
+                            with trade secrets, customers' personal information, and other critical data
+                            can be a company's worst nightmare. Hackers have become more sophisticated that they
+                            can overcome even the best network security measures.
+                        </p>
+                        <p>
+                            Organizations are adopting an approach of cyber resilience coupled with advanced
+                            technologies to assess risks, protect applications and data; the first step
+                            being the ability to <strong>identify risk and vulnerabilities</strong>
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Services-->
+            <div class="grid" id="OurServices">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>
+                            <i class="ion-podium"></i>
+                        </h1>
+                        <h1>Our Services</h1>
+                    </header>
+                </div>
+            </div>
+
+            
+            <div class="grid">
+
+                <!--Level 1 Penetration Testing-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-android-contract"></i>
+                            Level 1 Penetration Testing</h2>
+                        <p>
+                            This service revolves around testing your systems using <strong>known vulnerability techniques</strong>,
+                            and other related techniques that are commonly used by hackers to gain administrative access into company systems.
+                        </p>
+                    </header>
+                </div>
+                
+                <!--Level 2 Penetration Testing-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-android-expand"></i>
+                            Level 2 Penetration Testing</h2>
+                        <p>
+                            We also provide advanced form of <mark>Level 1 testing</mark>, and additional tests using unknown vulnerability
+                            techniques to test <strong>Websites</strong>, <strong>WebServers</strong>, <strong>Network</strong>
+                            and all devices connected to the company's network.
+                        </p>
+                    </header>
+                </div>
+
+                <!--Computer Forensics-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-ios-analytics"></i>
+                            Computer Forensics
+                        </h2>
+                        <p>
+                            Computer Forensics is a more advanced form of testing to identify the presence of security risks and Malware Infection
+                            on Servers and connected devices, with suggestions on how to adequately sanitize the systems.
+                        </p>
+                    </header>
+                </div>
+            </div>         
+            
+            <div class="grid">
+
+                <!--Training-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-help-buoy"></i>
+                            Training
+                        </h2>
+                        <p>
+                            We conduct field training for <mark>IT Staff</mark>, <mark>Workers</mark>,
+                            and <mark>Management</mark> on safe practices on the job relating to cyber security.
+                            We enlighten our clients on the new advances in cyber crime and how to identify them.
+                        </p>
+                    </header>
+                </div>
+
+                <!--Security Software Development-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-ios-monitor"></i>
+                            Security Software Development
+                        </h2>
+                        <p>
+                            With our knowledge in cyber security and our ability to find vulnerabilities in systems,
+                            we develop hardened security softwares that are able to withstand if not all many cyber
+                            attacks. 
+                        </p>
+                    </header>
+                </div>
+
+                <!--Technical Support-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-settings"></i>
+                            Technical Support
+                        </h2>
+                        <p>
+                            With our in-depth knowledge about network systems and their security, we offer
+                            technical support for companies who want to purchase new security equipments
+                            and softwares, then test them for vulnerabilities.
+                        </p>
+                    </header>
+                </div>
+
+            </div>            
+            
+            <div class="grid horizontal-center">
+                
+                <!--Consultation-->
+                <div class="col one-third below-lap-full">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>
+                            <i class="ion-easel"></i>
+                            Consultation
+                        </h2>
+                        <p>
+                            We provide <mark><strong>Free!</strong></mark> consultation for companies,
+                            businesses and individuals registered or not registered with
+                            <mark>CyberShield Ghana Ltd</mark>
+                        </p>
+                        <a class="button" href="$$Urls.Contact$$">Free Consultation</a>
+                    </header>
+                </div>                
+            </div>
+
+        </div>        
+    </section>
+
+    <!-- Conclusion -->
+    <section class="hire container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">                        
+                        <p>
+                            Our professional team is focused to protect your business by reinforcing security measures,
+                            and ensuring long term security practices by providing the services above.
+                        </p>
+                        <p>
+                            We ensure the continuation and completion of the <strong>cyber resilience</strong> cycle with
+                            the provision of security analysis reports that has details of every vulnerability discovered and
+                            how it was used to exploit the company's network.
+                        </p>
+                        <h2>Let Us Work With You</h2>
+                        <a class="button" href="$$Urls.Contact$$">Contact Us</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<!--@ include footer:! @-->

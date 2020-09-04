@@ -1,0 +1,30 @@
+<!-- Footer -->
+<section class="footer single-vcenter">
+    <div class="grid-wrapper">
+        <div class="grid horizontal-center">
+            <div class="col one-quarter below-lap-full">
+                <header>
+                    <p>
+                        <a href="mailto:$$EmailAddress$$" target="_blank">
+                            <i class="ion-at"></i>
+                        </a>
+                        <a href="$$Urls.External.LinkedIn$$" target="_blank">
+                            <i class="ion-social-linkedin"></i>
+                        </a>
+                        <a href="$$Urls.External.Twitter$$" target="_blank">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                        <a href="$$Urls.Contact$$#ContactInfo">
+                            <i class="ion-ios-telephone"></i>
+                        </a>                        
+                    </p>
+                    <p>&copy;<script>document.write(new Date().getFullYear());</script> CyberShield Ghana Ltd</p>
+                </header>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>

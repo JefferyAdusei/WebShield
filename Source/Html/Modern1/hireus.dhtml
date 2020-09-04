@@ -1,0 +1,194 @@
+<!--@ output hireus @-->
+<!--@ output ..\ServerRoot\Views\Home\HireUs.cshtml:server @-->
+<!--@ include variables @-->
+<!--@ include header:! @-->
+<!--@ include topmenu @-->
+
+<main class="hireus">
+
+    <!-- Full screen image -->
+    <section class="hireus-splash">
+        <div class="faded slower"  data-delay-add="slide-fade-in" data-delay="1">
+            <div class="container single-vcenter">
+                <div class="grid-wrapper">
+
+                    <div class="grid">
+                        <div class="splash-text">
+                            <header class="faded" data-delay-add="slide-in-up-group" data-delay="1">
+                                <h1><i class="ion-bowtie"></i></h1>                                                 
+                                <h2>
+                                    Trust Us, its better for us to discover your system's vulnerabilities
+                                    for you; Hackers don't give notices.
+                                </h2>
+                                <p>
+                                    <a class="button" href="$$Urls.Contact$$">Free Consultation</a>
+                                </p>
+                            </header>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Hire Us Intro -->
+    <section class="hire-us container single-vcenter">
+        <div class="grid-wrapper">                      
+            <div class="grid">
+                <div class="col">
+                    <header class="faded" data-delay-add="slide-in-up-group" data-scroll-into-view="slide-in-up-group">
+                        <h1>Why are cyber attacks significant?</h1>
+                        <p>
+                            The cost of businesses from cyber attacks and their consequences, such as data breaches,
+                            are devastating. According to the <mark>2018 cost of Data Breach Study by Ponemon Institute</mark>,
+                            the average total cost of a data breach is $3.86 million.
+                        </p>
+                        <p>
+                            Sometimes an attack may not neccessarily be for the money, cyber attacks can also...
+                        </p>                        
+                        <p>
+                            <ul>
+                                <li>Damage brands and reputations</li>
+                                <li>Erode and even decimate customer loyalty</li>
+                                <li>Result in loss of intellectual property</li>
+                                <li>Put companies out of business</li>
+                                <li>Invite regulatory penalties</li>
+                                <li>Impair security of governments and states</li>
+                                <li>Increase potential for future attacks</li>
+                            </ul>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="single-vcenter">
+
+        <div class="grid-wrapper">
+
+            <div class="grid">
+                <div class="col">
+                    <header class="faded" data-delay-add="slide-in-up-group" data-scroll-into-view="slide-in-up-group">
+                        <p>
+                            The cost of our service is dependent on the size and complexity of the system being tested,
+                            and stipulations under which the tests are to be carried. All these are determined through
+                            our scope meeting with our clients.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <div class="grid handle">
+
+                <div class="col one-half below-lap-one-whole">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Free Services</h2>                        
+                        <p>
+                            Get started with a free consultation from CyberShield Ghana Ltd.
+                        </p>
+                        <p>
+                            <a class="button" href="$$Urls.Contact$$">Free Consultation</a>
+                        </p>
+                        
+                    </header>
+                </div>
+
+                <div class="col one-half below-lap-one-whole">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Paid Services</h2>
+                        <p>
+                            How sure are you about your systems. Test and verify.
+                        </p>
+                        <p>
+                            <a class="button" href="$$Urls.Services$$">Our Tests</a>
+                        </p>
+                    </header>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog details list -->
+    <section class="blog-list container single-vcenter">
+        <div class="grid-wrapper">
+
+            <div class="grid">
+                <div class="col">
+                    <header class="faded" data-delay-add="slide-in-up-group" data-scroll-into-view="slide-in-up-group">
+                        <h1>How Much?</h1>
+                        <p>
+                            <mark>CyberShield GH LTD</mark> gives up to <strong>50% discount</strong> on our services
+                        </p>
+                        <p>
+                            We have three main streams of charges for our <a href="$$Urls.Services$$">Services</a>
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--One-Time Security Solution-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>One-Time Security Solution</h2>
+                        <p>
+                            This type of service come with a <strong>fixed charge</strong>.
+                            It entails a one time provision of our listed <a href="$$Urls.Services$$">services</a>.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Contractual-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Contractual Security Solutions</h2>
+                        <p>
+                            Under this stream, our services are provided based on agreement contracts between us
+                            and our clients to provide security services for a defined period of time.<br/>
+                            This service is charged <strong>monthly</strong>.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Consultancy-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Consultancy IT Solution</h2>
+                        <p>
+                            Maybe you've realised some security issues with your system. With your knowledge, you've probably
+                            detected cyber intrusions on your system and you need specialist services to help solve these issues.
+                            Our Consultancy Solution service is what you need. This type of service comes mostly with
+                            <strong>cost at a discount</strong>
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Free knowledge -->
+    <section class="hire container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1>&ldquo;Sure I would be glad to hire you&rdquo;</h1>
+                        <a class="button" href="$$Urls.Contact$$">Contact Us</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<!--@ include footer:! @-->

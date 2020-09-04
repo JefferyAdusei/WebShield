@@ -1,0 +1,56 @@
+
+.hireus
+{
+    .hireus-splash
+    {       
+        > div
+        {
+            // Full height
+            height: 100vh;
+
+            // Fill
+            background-size: cover;
+
+            // Don't repeat image
+            background-repeat: no-repeat;
+
+            // Keep image in center
+            background-position: center;
+
+            // Image background
+            background-image: url('/Assets/Images/credit-card.jpg');        
+        }
+    }
+    // All sections on blog page should fill the page at least
+    // for a nice spaced out effect
+    > section, > header
+    {
+        // Fill the page at least
+        min-height: 100vh;
+    }
+
+    // Main header
+    h1 
+    {
+        // Alternative color
+        @extend h1.alternative;
+    }
+    .hire-us
+    {        
+        h1
+        {            
+            // Small bottom margin
+            margin-bottom: $spacing-normal;
+        }
+
+        // Paragraph right after a header
+        h1 + p
+        {
+            // No margin
+            margin: 0;
+        }
+    }
+    
+    // Match spacing between headers and paragraphs
+    .hire { @extend .spaced-lines; }
+}

@@ -1,0 +1,140 @@
+<!--@ output about @-->
+<!--@ output ..\ServerRoot\Views\Home\About.cshtml:server @-->
+<!--@ include variables @-->
+<!--@ include header:! @-->
+<!--@ include topmenu @-->
+
+<main class="about">
+
+    <!-- Full screen image -->
+    <section class="about-splash">
+        <div class="faded slower"  data-delay-add="slide-fade-in" data-delay="1">
+            <div class="container single-vcenter">
+                <div class="grid-wrapper">
+
+                    <div class="grid">
+                        <div class="splash-text">
+                            <header class="faded" data-delay-add="slide-in-up-group" data-delay="1">
+                                <h1><i class="ion-ios-help"></i></h1>                                                 
+                                <h2>
+                                    We appreciate your efforts in trying to know more about us. We hope
+                                    not to disappoint <i class="ion-happy"></i>.
+                                </h2>
+                                <p>
+                                    <a class="button" href="#"> ~Regards CyberShield Gh Ltd.</a>
+                                </p>
+                            </header>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Start -->
+    <section class="container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1><i class="ion-ribbon-b"></i></h1>
+                        <h1>Who we are?</h1>
+                        <h2>
+                            &ldquo;Our Business is Protecting Yours&rdquo;
+                        </h2>
+                        <p>
+                            <mark class="alternative">CyberShield Ghana Ltd.</mark>, is an innovative
+                            cyber security and IT consultancy firm, with a team of cyber security analysts
+                            and software engineers, who are highly motivated to providing maximum protection
+                            against cyber attacks for our clients.
+                        </p>
+                        <p>
+                            With our <strong>forward thinking</strong> cyber security solutions, we want our
+                            clients to grow their businesses having a cyber safety assurance in their systems.
+                        </p>                        
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Vision -->
+    <section class="container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid handle">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1><i class="ion-ios-glasses"></i></h1>
+                        <h2>Our Vision</h2>
+                        <p>
+                            We are focused on becoming the leading <mark>Cyber Solution Provider</mark>
+                            in Sub-Saharan Africa, and having a major impact on ICT development in Africa.
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Mission -->
+    <section class="container single-vcenter">
+        <div class="grid">
+            <div class="col">
+                <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                    <h1><i class="ion-ios-stopwatch"></i></h1>
+                    <h2>Our Mission</h2>
+                    <p> 
+                        We are a group poised to achieve our vision by providing these
+                        key distinguishing features in our service:                        
+
+                        <ul>
+                            <li>Well documented Vulnerability Analysis Reports</li>
+                            <li>Well documented Penetration Test Reports</li>
+                            <li>Advanced Training and Consultancy</li>
+                            <li>On call Technical Support</li>
+                            <li>Security Software Development</li>
+                        </ul>
+                    </p>
+                </header>
+            </div>
+        </div>
+    </section>
+
+    <!-- On ending -->
+    <section class="container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h1><i class="ion-ios-play"></i></h1>
+                        <h1>Way Forward...</h1>
+                        <p>
+                            We examine what other organizations are doing to stay relevant
+                            and competitive in terms of cyber security, and which ones are doing it best.
+                            We then examine your system and strategize on how best to bring them to standard.
+                        </p>
+                        <p>
+                            <a class="button" href="$$Urls.Contact$$">Get In Touch</a>
+                        </p>
+                        <p>
+                            to learn more about how
+                        </p>
+                        <p>
+                            <a class="button" href="$$Urls.Services$$">Our Services</a>
+                        </p>
+                        <p>
+                            can transform your system's security. And if you are impressed,
+                            You can
+                        </p>
+                        <p>
+                            <a class="button" href="$$Urls.HireUs$$">Hire Us</a>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!--@ include footer:! @-->

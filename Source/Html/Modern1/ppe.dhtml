@@ -1,0 +1,216 @@
+<!--@ output personalprotection @-->
+<!--@ output ..\ServerRoot\Views\Home\PersonalProtection.cshtml:server @-->
+<!--@ include variables @-->
+<!--@ include header:! @-->
+<!--@ include topmenu @-->
+
+<main class="personalprotection">
+
+    <!-- Full screen image -->
+    <section class="ppe-splash">
+        <div class="faded slower"  data-delay-add="slide-fade-in" data-delay="1">
+            <div class="container single-vcenter">
+                <div class="grid-wrapper">
+
+                    <div class="grid">
+                        <div class="splash-text">
+                            <header class="faded" data-delay-add="slide-in-up-group" data-delay="1">
+                                <h1><i class="ion-ios-lightbulb"></i></h1>                                                 
+                                <h2>
+                                    We have the Best In-House Training Program for company management
+                                    and staff.
+                                </h2>
+                                <p>
+                                    <a class="button" href="$$Urls.Contact$$">Contact Us</a>
+                                </p>
+                            </header>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- PPE splash -->
+    <section class="personal-splash container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="faded" data-delay-add="slide-in-up-group" data-scroll-into-view="slide-in-up-group">
+                        <h1>CyberShield Ghana Ltd.</h1>
+                        <p>
+                            By 2021, it has been estimated that cyberbrime will cost the world about <strong>$6 trillion</strong>.
+                            It is currently costing almost $4 trillion in damages, however, the number is steadily climbing as criminals
+                            become more intuitive.
+                        </p>
+                        <p>
+                            Home computers are just as susceptible to cyber attacks and the loss of access to personal and ofter
+                            irreplaceable items that can be devastating for individuals as well. There are people who do not know they have
+                            been hacked and people who do not know they are being hacked. Sometimes it takes <strong>YOU</strong> to initialize
+                            a cyber attack that is why it is important to protect yourself first.
+                        </p>                        
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full screen image -->
+    <section class="container single-vcenter security-img">
+        <div class="faded slower" data-scroll-into-view="slide-fade-in" data-scroll-into-view-offset="40"></div>
+    </section>
+
+    
+    <!-- Services -->
+    <section class="ppe-extended container single-vcenter">
+        <div class="grid-wrapper">
+
+
+            <!--Be careful What You Download-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                            <h1>Protect Your Computer, Stay Safe.</h1>
+                            <p>
+                                Some situations can be avoided. CyberShield Ghana Ltd. has gathered some key steps
+                                that can save you a fortune. Do not wait until it's too late; act now on the following...
+                            </p>
+                        </header>
+                    </div>
+            </div>
+
+            <!--Keep your firewall turned on-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Keep Your Firewall Turned On</h2>
+                        <p>
+                            A firewall helps protect your computer from hackers who might try to gain access to
+                            crash it, delete information, or even steal passwords or other sensitive information.
+                            Software firewalls are widely recommended for single computers. The software is prepackaged
+                            on some operating systems or can be purchased for individual computers. For multiple
+                            networked computers, hardware routers typically provide firewall protection
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Antivirus Software-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Install or Update Your Antivirus Software</h2>
+                        <p>
+                            Antivirus software is designed to prevent malicious software programs
+                            from embedding on your computer. If it detects malicious code, like a virus
+                            or a worm, it works to disarm or remove it. Viruses can infect computers
+                            without users’ knowledge. Most types of antivirus software can be set up to update automatically.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Antispyware Technology-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Install or Update Your Antispyware Technology</h2>
+                        <p>
+                            Spyware is just what it sounds like—software that is surreptitiously installed on your
+                            computer to let others peer into your activities on the computer. Some spyware collects
+                            information about you without your consent or produces unwanted pop-up ads on your web browser.
+                        </p>
+                        <p>
+                            Some operating systems offer free spyware protection, and inexpensive software is readily
+                            available for download on the Internet. Be wary of ads on the Internet offering downloadable
+                            antispyware—in some cases these products may be fake and may actually contain spyware or other
+                            malicious code. Always purchase your anti-spyware software from trusted sources.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Update Your OS-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Keep Your Operating System Up-to-Date</h2>
+                        <p>
+                            Computer operating systems are periodically updated to stay in tune with
+                            technology requirements and to fix security holes. Be sure to install the updates to ensure your
+                            computer has the latest protection.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Be careful What You Download-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Be Careful What You Download</h2>
+                        <p>
+                            Carelessly downloading e-mail attachments can circumvent even the most vigilant
+                            anti-virus software. Never open an e-mail attachment from someone you don’t know, and be wary of forwarded
+                            attachments from people you do know. They may have unwittingly advanced malicious code.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <!--Turn Off Your Computer-->
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">
+                        <h2>Turn Off Your Computer/Internet</h2>
+                        <p>
+                            With the growth of high-speed internet connections, many opt to leave their
+                            computers and internet connection on and ready for action. The downside is that being "online"
+                            always, renders your computer system more suceptible.
+                        </p>
+                        <p>
+                            Beyond firewall protection, which is designed
+                            to fend off unwanted attacks, turning the computer off effectively severs an attacker's connection;
+                            be it spyware or a botnet that employs your computer's resources to reach out to ther unwitting users.
+                        </p>
+                    </header>
+                </div>
+            </div>            
+
+        </div>
+        
+    </section>
+
+    <!-- Conclusion -->
+    <section class="conclusion container single-vcenter">
+        <div class="grid-wrapper">
+            <div class="grid">
+                <div class="col">
+                    <header class="will-slide-in-up" data-scroll-into-view="slide-in-up-group">                        
+                        <h2>
+                            &ldquo;54% of company breaches are due to employees&rdquo;
+                        </h2>
+                        <p>
+                            <a href="$$Urls.External.BankCyberCrime$$">The International Banker</a> reports that cyber security
+                            breaches in a compayny are mostly due to the company's employess. Firstly, there are the employees
+                            who unknowingly allow a hack to take place and employees who conduct the attack themselves.
+                        </p>
+                        <p>
+                            It is blatantly obvious how abolutely necessaryit is to have cybersecurity experts within every organization
+                            but shockingly there are low numbers of cyber security experts worldwide to respond to the number
+                            of attacks taking place daily thus we believe in the saying that
+                        </p>
+                        <blockquote>
+                            Prediction and Prevention are better than responding to an attack.
+                        </blockquote>
+                        <h2>We Offer In House Cyber Training</h2>
+                        <a class="button" href="$$Urls.Contact$$">Contact Us</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!--@ include footer:! @-->

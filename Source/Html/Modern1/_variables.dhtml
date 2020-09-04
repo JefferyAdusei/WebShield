@@ -1,0 +1,46 @@
+<!--$
+
+<Data>
+
+    <Variable Name="WebsiteTitle">CyberShield Ghana Ltd.</Variable>
+    <Variable Name="WebsiteDescription">
+        CyberShield Ghana Ltd., is an innovative cyber security and IT consultancy firm,
+        with a team of cyber security analysts and software engineers,
+        who are highly motivated to providing maximum protection against cyber attacks for our clients.
+    </Variable>  
+
+    <Variable Name="Urls.Home">/</Variable>    
+    <Variable Name="Urls.AboutMe">/about.html</Variable>
+    <Variable Name="Urls.PPE">/personalprotection.html</Variable>    
+    <Variable Name="Urls.HireUs">/hireus.html</Variable>   
+    <Variable Name="Urls.Contact">/contact.html</Variable>
+    <Variable Name="Urls.Services">/services.html</Variable>   
+
+    <Variable Name="Urls.Download.SolidWorksFiles">/download/solidworks-files</Variable>
+    <Variable Name="Urls.Download.BatchProcessGuide">/download/batchprocess-guide</Variable>
+    <Variable Name="Urls.Download.BatchProcess">/download/batchprocess</Variable>
+    <Variable Name="Urls.Download.Brochure">/Assets/Files/Brochure.jpg</Variable>
+
+    <Variable Name="Urls.External.ILikeMyPrivacy">https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services</Variable>
+    <Variable Name="Urls.External.Twitter">https://twitter.com/cybershieldghltd</Variable>
+    <Variable Name="Urls.External.LinkedIn">https://linkedin.com/company/cybershieldltd</Variable>
+
+    <Variable Name="Urls.External.WikiCybercrime">https://en.wikipedia.org/wiki/Cybercrime</Variable>
+    <Variable Name="Urls.External.IbmCyberDefense">https://www.ibm.com/services/business-continuity/cyber-attack</Variable>
+    <Variable Name="Urls.External.FiveMostSecureBrowsers">https://proprivacy.com/guides/most-secure-browsers</Variable>
+    <Variable Name="Urls.External.MostSecureBrowsers">https://www.beencrypted.com/most-secure-browser/</Variable>
+    <Variable Name="Urls.External.WhyVPN">https://www.privacyend.com/most-secure-web-browsers/</Variable>
+    <Variable Name="Urls.External.WikiSQL">https://en.wikipedia.org/wiki/SQL</Variable>
+
+    <Variable Name="Urls.External.FbiCyberInvestigations">https://www.fbi.gov/investigate/cyber</Variable>
+    <Variable Name="Urls.External.CyberCrimeStats">https://techlog360.com/shocking-cyber-crime-stats/</Variable>
+    <Variable Name="Urls.External.BankCyberCrime">https://internationalbanker.com/banking/cybercrime-growing-threat-global-banking/</Variable>
+
+    <Variable Name="EmailAddress">info@cybshieldltd.com</Variable>
+
+    <Variable Name="Images.LogoText">/Assets/Images/logo-text.png</Variable>
+    <Variable Name="Images.LogoFlat">/Assets/Images/logo-flat.png</Variable>
+    <Variable Name="Images.CyberHand">/Assets/Images/cyberhand.jpg</Variable>
+</Data>
+
+$-->

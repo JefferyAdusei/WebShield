@@ -1,0 +1,363 @@
+@import "Fabric/Settings/dna.fabric.settings";
+@import "Fabric/dna.fabric";
+@import "Modern1/modern1.home";
+@import "Modern1/modern1.about";
+@import "Modern1/modern1.ppe";
+@import "Modern1/modern1.contact";
+@import "Modern1/modern1.hireus";
+@import "Modern1/modern1.services";
+
+// Containers
+.container
+{
+    // On my site, I am going for the super-spacious appearance
+    // so lets make the containers really spaced out
+
+    // Large padding on large screens
+    padding: #{$spacing-largest * 2} $spacing-larger;
+    
+    // Smaller when screen gets smaller
+    @include media($breakpoint-mobile)
+    {
+        padding:  $spacing-larger $spacing-normal;
+    }        
+}
+
+.top-menu-standard .menu-logo img
+{
+    // Make logo shake on hover
+    @extend .shake;
+}
+
+// Button style
+a.button
+{
+    // Display inline block
+    display: inline-block;
+
+    // Larger font
+    font-size: $font-larger;
+
+    // On smaller screens...
+    @include media('below-lap')
+    {
+        // Larger font
+        font-size: $font-large;
+    }
+
+    // Border
+    border: 1px solid $color3;
+
+    // Border radius
+    border-radius: $spacing-normal;
+
+    // Padding inside button
+    padding: $spacing-normal;
+
+    // Text color bright neutral
+    color: $color6;
+
+    // Hover effect
+    @include hocus()
+    {
+        // Bright secondary color
+        color: $color3;
+    }
+}
+
+a.bev-button
+{
+    // Display inline block
+    display: inline-block;
+
+    // Larger font
+    font-size: $font-larger;
+
+    
+    // Padding inside button
+    padding: $spacing-normal;
+
+    // Text color bright neutral
+    color: $color6;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+
+    // Hover effect
+    @include hocus()
+    {
+        background-color: $color13;
+        // Bright secondary colo3
+        color: $color3;
+
+        // Glowing effect
+        transition: 1s;
+        text-shadow: 0 0 0.1em, 0 0 0.3em;
+    }
+
+    height: 35vh;
+    width: 20vw;
+
+    border-radius: $spacing-normal;
+
+    @include media ($breakpoint-below-desktop)
+    {
+        width: 35vw;
+        height: 40vh;
+        vertical-align: 50%;              
+    }
+
+    @include media($breakpoint-mobile)
+    {
+        width: 60vw;
+        height: 40vh;
+    }
+}
+
+// Sections in general
+section
+{
+    // Dark background color
+    background: $color1;
+
+    // The text inside header
+    header
+    {
+        // Works same space apart as the height of the text
+        line-height: 1;
+
+        // Center the text
+        text-align: center;
+
+        // Each line of text as a header
+        > h1
+        {
+            // Unusually large font
+            font-size: $font-largest * 1.7;
+
+            // On smaller screens...
+            @include media($breakpoint-below-laptop)
+            {
+                // Large font
+                font-size: $font-largest;
+            }
+        }
+
+        // Make all header paragraphs larger font
+        > p
+        {
+            // Larger font
+            font-size: $font-larger;
+
+            // On smaller screens...
+            @include media($breakpoint-below-laptop)
+            {
+                // Large font
+                font-size: $font-large;
+            }
+        }
+    }    
+}
+
+section.footer
+{
+    background-color: $color12;
+    // Some padding around footer
+    padding: $spacing-normal;     
+
+    // Remove padding from section style
+    p
+    {
+        // Smaller font size
+        font-size: $font-large;
+
+        // Remove section margin style
+        margin: 0;
+
+        // Reduce size on smaller screens
+        @include media($breakpoint-below-laptop)
+        {
+            font-size: $font-normal;            
+        }
+    }
+
+    i
+    {
+        font-size: $font-larger;
+        margin: 0% 5%;
+
+        @include media($breakpoint-below-laptop)
+        {
+            font-size: $font-large;
+        }
+    }
+}
+
+h1.alternative
+{
+    // Bright theme color
+    color: $color2; 
+
+    // Mark inside here is bright neutral color
+    mark { color: $color6; }    
+}
+
+// Headers directly after headers
+h1 + h1
+{
+    // No top margin
+    // And negative to "remove" heading aboves margin
+    margin-top: -$spacing-large;
+}
+
+p
+{
+    // Larger spacing
+    line-height: 1.5;
+}
+
+.inline-whole-image
+{
+    // Decent size
+    height: 50vh;
+
+    // Max size
+    max-height: 500px;
+
+    @include media($breakpoint-below-laptop)
+    {
+        height: 40vw;
+    }
+
+    // Shrink to fit
+    background-size: contain;
+
+    // Don't repeat image
+    background-repeat: no-repeat;
+
+    // Keep him to the center
+    background-position: center;
+
+    // Bit of top/bottom margin
+    margin: $spacing-larger 0; 
+}
+
+.spaced-lines
+{
+    h1, p
+    {
+        // Huge margin
+        margin: $font-largest * 2 0;
+
+        // On smaller screens...
+        @include media($breakpoint-below-laptop)
+        {
+            // Large margin
+            margin: $font-largest 0;
+        }
+    }
+}
+
+ul > li, blockquote
+{
+    font-size: $font-large * 1.5;
+    margin: $spacing-small 0;
+
+    // On smaller screens..
+    @include media($breakpoint-below-laptop)
+    {
+        // Large fonts
+        font-size: $font-large;
+    }
+}
+
+h2
+{
+    // Alternative color
+    @extend mark.alternative;
+    font-size: $font-largest;
+
+    // On smaller screens...
+    @include media($breakpoint-below-laptop)
+    {
+        // Large margin
+        font-size: $font-larger;
+    }
+}
+
+blockquote
+{
+    line-height: $spacing-larger;
+    border-left: 5px solid $color9;
+    padding-left: $spacing-large;
+    text-align: justify;
+
+    @include media($breakpoint-below-laptop)
+    {
+        line-height: $spacing-large;
+    }
+        
+}
+
+
+// Splash Text
+.splash-text
+{
+    // The text to show on the splash image when the page loads
+    background-color: rgba(211, 255, 243, 0.4);
+    padding: $spacing-large $spacing-larger;
+    margin: 1%;
+    border-radius: $spacing-larger;
+    
+        
+    @include media($breakpoint-below-laptop)
+    {
+        padding: $spacing-small $spacing-large;
+        border-radius: $spacing-large;
+    }
+
+    @include media($breakpoint-mobile)
+    {
+        margin-top: 15%;
+    }
+    h1
+    {
+        margin: 0%;
+        padding: 0%;
+        font-size: $font-largest * 3;
+        color: $color5;
+        text-align: center;
+        
+        @include media($breakpoint-mobile)
+        {
+            font-size: $font-largest * 2;
+        }                  
+    }
+    h2
+    {
+        font-weight: bold;
+        text-decoration: underline overline;
+        line-height: 140%;
+        text-align: justify;
+        color: $color11;
+
+        @include media($breakpoint-below-desktop)
+        {
+            font-size: $font-large * 2;
+        }
+
+        @include media($breakpoint-below-laptop)
+        {
+            font-size: $font-larger;            
+        }
+    }
+}
+
+.handle
+{
+    margin: 3%;
+    background-color:  rgba(250, 128, 114, 0.2);  
+    padding: $spacing-normal;
+    border-radius: $spacing-normal;
+    background-image: linear-gradient($color5, $color12);          
+}

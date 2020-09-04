@@ -1,0 +1,93 @@
+// All sections on contact page should fill the page at least
+// for a nice spaced out effect
+.contact > section, .contact > header
+{
+    // Fill the page at least
+    min-height: 100vh;
+}
+
+// Main contact page
+.contact
+{
+    .contact-splash
+    {       
+        > div
+        {
+            // Full height
+            height: 100vh;
+
+            // Fill
+            background-size: cover;
+
+            // Don't repeat image
+            background-repeat: no-repeat;
+
+            // Keep image in center
+            background-position: center;
+
+            // Image background
+            background-image: url('/Assets/Images/coffee-contact.jpg');        
+        }
+    }
+    // Contact us section
+    .contact-us
+    {
+        // Main header
+        h1 
+        {
+            // Alternative color
+            @extend h1.alternative;
+
+            // Small bottom margin
+            margin-bottom: $spacing-normal;
+        }
+
+        // Paragraph right after a header
+        h1 + p
+        {
+            // No margin
+            margin: 0;
+        }
+
+        
+
+        // Mascot background
+        .contact-background
+        {
+            // Make image inline, centered and responsive
+            @extend .inline-whole-image;
+
+            // Mascot background image
+            background-image: url('/Assets/Images/logo.png');
+        }
+    }
+    // Button style
+    .phone
+    {
+        // Display inline block
+        display: inline-block;
+
+        // Larger font
+        font-size: $font-larger;
+
+        // On smaller screens...
+        @include media('below-lap')
+        {
+            // Larger font
+            font-size: $font-large;
+        }
+
+        // Border
+        border: 0px solid $color3;
+
+        border-bottom-width: 3px;
+        // Border radius
+        border-radius: $spacing-normal;
+
+        // Padding inside button
+        padding: $spacing-normal;
+
+        // Text color bright neutral
+        color: $color3;
+    }        
+}
